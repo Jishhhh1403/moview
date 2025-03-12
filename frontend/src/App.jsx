@@ -7,11 +7,6 @@ import { Search } from "./components/Search"
 import { Spinner } from "./components/Spinner"
 import { MovieCard } from "./components/MovieCard"
 import  useDebounce  from "./Hooks/useDeb";
-import { BrowserRouter } from "react-router-dom";
-
-
-
-
 
 const App=()=>{
   const API_BASE_URL = 'https://api.themoviedb.org/3';
