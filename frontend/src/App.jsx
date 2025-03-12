@@ -4,7 +4,6 @@ import { useEffect, useState} from "react";
 import { Header } from "./components/Header"
 import { Homepage } from "./components/Homepage"
 import { Search } from "./components/Search"
-import { Spinner } from "./components/Spinner"
 import { MovieCard } from "./components/MovieCard"
 import  useDebounce  from "./Hooks/useDeb";
 
